@@ -11,6 +11,7 @@ export default function BusinessRequirementSection({ isGeneratingPDF, value, onC
       <tbody>
         <tr>
           <td colSpan="2">
+            
             {!isGeneratingPDF ? (
               <textarea
                 data-label="businessReq"

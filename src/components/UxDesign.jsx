@@ -13,8 +13,8 @@ export default function UXDESIGN({ isGeneratingPDF, value, onChange }) {
           <td colSpan="2">
             {!isGeneratingPDF ? (
               <textarea
-                data-label="businessReq"
-                placeholder="Enter business requirements here..."
+                data-label="uxdesign"
+                placeholder="Enter uxdesgin requirements here..."
                 value={value}
                 onChange={(e) => onChange(e.target.value)}
                 style={{ width: '100%' }}
@@ -22,7 +22,7 @@ export default function UXDESIGN({ isGeneratingPDF, value, onChange }) {
             ) : (
               <div
                 className="print-text"
-                data-label="businessReqText"
+                data-label="uxdesgin"
                 style={{
                   whiteSpace: 'pre-wrap',
                   border: '1px solid #ccc',

@@ -26,7 +26,7 @@ export default function BusinessRequirementSection({ isGeneratingPDF, value, onC
                 data-label="businessReqText"
                 style={{
                   whiteSpace: 'pre-wrap',
-                  border: '1px solid #ccc',
+                  border: 'transparent',
                   padding: '0.5rem',
                   minHeight: '6em',
                   color:'black'

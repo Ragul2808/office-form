@@ -23,7 +23,7 @@ export default function FunctionalityDescription({ isGeneratingPDF, value, onCha
               <div
                 style={{
                   whiteSpace: 'pre-wrap',
-                  border: '1px solid #ccc',
+                  border: 'transparent',
                   padding: '0.5rem',
                   minHeight: '8em',
                   color: 'black'

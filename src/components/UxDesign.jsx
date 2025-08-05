@@ -25,7 +25,7 @@ export default function UXDESIGN({ isGeneratingPDF, value, onChange }) {
                 data-label="uxdesgin"
                 style={{
                   whiteSpace: 'pre-wrap',
-                  border: '1px solid #ccc',
+                  border: 'transparent',
                   padding: '0.5rem',
                   minHeight: '6em',
                   color:'black'
